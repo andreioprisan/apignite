@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+# By default always use SSL
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^(.*) https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+
+php_value memory_limit 64M
+php_value max_execution_time 1000

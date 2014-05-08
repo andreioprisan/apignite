@@ -24,7 +24,7 @@ You can spend more time building kickass products and less time maintaining your
 
 
 - More details & screenshots:
-http://andrei.oprisan.com/apignite-com-0-to-api-in-60-seconds/
+http://andrei.oprisan.com/apignite-0-to-api-in-60-seconds
 
 ---
 
